@@ -51,7 +51,10 @@ public class ProductController {
 		Product findProductById(@PathVariable long id) throws ResourceNotFoundException {
 			return productService.findProductById(id);
 		}
-	 
+//	 @GetMapping("/findProductById/{id}")
+//		Product findProductById(@PathVariable long id) throws ResourceNotFoundException {
+//			return productService.findProductById(id);
+//	 
 
 }
 
